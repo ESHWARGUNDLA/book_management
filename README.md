@@ -18,7 +18,7 @@ GET: Get a user by id PUT: Update a user by id DELETE: Delete a user by id (chk 
 
 04th aug 2023 4*50 = 200
 
-users/subscription-details/{id}
+# users/subscription-details/{id}
 GET: Get user subscription details
 
 Date of subscription
@@ -30,12 +30,14 @@ GET: Get all the books POST: Create/Add a book
 # books/{id}
 GET: Get a book by its id PUT: Update a book by its id
 
-books/issued
+# books/issued
 GET: Get all the issued books
 
 # books/issued/withFine
 GET: Get all issued books with fine
 
-Subscription Type
-Basic (3 months) Standard (6 months) Premium (12 months)
+### Subscription Type
+Basic (3 months) 
+Standard (6 months) 
+Premium (12 months)
 
